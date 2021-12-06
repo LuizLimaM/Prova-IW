@@ -1,0 +1,72 @@
+body{
+    background-color: #fde8d8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fundonav{
+    background-color: #f2b4a3;
+    font-weight: bolder;
+}
+
+h1,h2,h3,h4{
+    font-size: 2em;
+    color: #78c1a3;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+
+h5{
+    font-size: 2em;
+    color: #ffdbc2;
+    font-weight: bolder;
+    text-align: center;
+}
+
+p,a,li{
+    color: #c1cbb1;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.icone{
+    border-radius: 200px;
+    transition: transform .3s;
+    margin: 0 auto;
+}
+  
+.icone:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.card{
+    margin-top: 10%;
+    margin-bottom: 1%;
+
+}
+
+.card-body{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.accordion h1,h2,h3,h4,h5{
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #78c1a3;
+    font-size: 1.3em;
+}
+
+.rodape{
+    color: #e4f0d2;
+    font-weight: bolder;
+    font-size: 1.5em;
+    background-color: #f2b4a3;
+    text-align: center;
+    padding: 1%;
+    margin-top: 5%;;
+}
